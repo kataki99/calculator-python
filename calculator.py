@@ -21,5 +21,5 @@ if op=="cos":
 if op=="rishe":
     javab = ("aval:",(math.sqrt(a)),"dovom:",(math.sqrt(b)))
 if op=="tavan 2":
-    javab = ("aval:",(a**2),"dovom:"(b**2))
+    javab = ("aval:", (a*a), "dovom:", (b*b))
 print(javab)
