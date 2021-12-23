@@ -15,9 +15,9 @@ if op=="/":
     else:
         javab = a / b
 if op=="sin":
-    javab = ( "sinus adad aval dar radian:",(math.sin(a)),"sinus addad dovom az radian:",  (math.sin(b)))
+    javab = ( "sinus adad aval :",(math.sin(math.radians(a))),"sinus addad dovom:",  (math.sin(math.radians(b))))
 if op=="cos":
-    javab = ( "cosinus addad aval az radian:", (math.cos(a)), "cosinus addad dovom az radain:", (math.cos(b)))
+    javab = ( "cosinus addad aval :", (math.cos(math.radians(a))), "cosinus addad dovom:", (math.cos(math.radians(b))))
 if op=="rishe":
     javab = ("aval:",(math.sqrt(a)),"dovom:",(math.sqrt(b)))
 if op=="tavan 2":
