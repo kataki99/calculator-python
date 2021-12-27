@@ -1,8 +1,8 @@
 a = input("name: ")
 b = input("family: ")
-c = int(input("nomre dars aval"))
-d = int(input("nomre dars dovom"))
-e = int(input("nomre dars sevom"))
+c = float(input("nomre dars aval"))
+d = float(input("nomre dars dovom"))
+e = float(input("nomre dars sevom"))
 moadel = ((c + d + e )/3 )
 if moadel >= 17:
      print("status:""great")
