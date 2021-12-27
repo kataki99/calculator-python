@@ -1,7 +1,7 @@
 a = float(input("ghad bar hasb meter"))
 b = float(input("vazn bar hasb Kg"))
 bmi = b / (a*a)
-print(bmi)
+print("bmi:",bmi)
 if bmi <18.5:
     print("bmi underweight")
 if bmi >= 18.5 and bmi<= 24.9:
